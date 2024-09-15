@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+#logo {
+    margin: 0px; 
+    padding: 8px;
+    font-family: "Papyrus", fantasy;
+    box-shadow: 8px 8px 10px 3px black;
+    width: 29%;
+    height: 38%;
+    border-radius: 150%;
+    text-shadow: 
+    1px 1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    -1px -1px 0px black;
+}
+
+cite > a {
+    display: inline-block;
+    width: 50px;
+    height: 10px;
+}
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: plum;
+    color: white;
+    display: flex;
+    height: 12vw;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 10px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 3px solid white;
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 85%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 75%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: plum;
+    color: white;
+    display: flex;
+}
+
+img {
+    border-radius: 100%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 25px;
+}
+
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+}
+
