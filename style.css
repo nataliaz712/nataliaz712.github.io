@@ -74,8 +74,11 @@ body > main article {
     width: 75%;
 }
 
+
 form {
     text-align: center;
+    background-color: plum;
+    margin: 10px;
 }
 
 h2 {
@@ -86,6 +89,7 @@ body > footer {
     background-color: plum;
     color: white;
     display: flex;
+    margin: 10px;
 }
 
 img {
